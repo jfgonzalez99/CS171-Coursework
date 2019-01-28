@@ -1,0 +1,129 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #25395E;
+  background: #F2F2F0;
+}
+
+div {
+  padding: 10px;
+}
+
+div.banner, div.footer {
+  background: #324359;
+  color: white;
+  margin-left: -5%;
+  margin-right: -5%;
+  padding: 45px;
+  height: 125px;
+}
+
+div.footer {
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+h1#assignment {
+  text-align: left;
+  margin-top: -30px;
+}
+
+h1#name {
+  text-align: right;
+  margin-top: -30px;
+}
+
+table {
+  width: 60%;
+  height: 300px;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #324359;
+  color: white;
+}
+
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #F2F2F0;
+}
+
+tr:nth-child(even) {
+  background-color: #D9D9D9;
+}
+
+tr:hover {
+  background-color: #5A79A1;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  /* margin-left: -37px; */
+}
+
+a {
+  color: #25395E;
+}
+
+a:hover {
+  color: #5A79A1;
+  text-decoration: none;
+}
+
+img {
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.slider {
+  height: 490px;
+}
+
+.carousel-caption {
+  position: relative;
+  margin-left: -30%;
+  margin-top: 20px;
+  color: #25395E;
+}
+
+.reasons {
+  overflow-y: scroll;
+  height: 530px;
+}
+
+.reasons p{
+  /* margin-top: -40px; */
+  text-align: justify;
+  margin: 0 auto;
+}
+
+img#graph {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}

@@ -1,0 +1,63 @@
+body {
+  background-color: #E4E8ED;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #41355C;
+}
+
+div {
+  padding: 15px;
+}
+
+table {
+  width: 50%;
+  margin-left: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #E4E8ED;
+}
+
+tr:nth-child(even) {
+  background-color: #D9D9D9;
+}
+
+h1 {
+  text-align: center;
+  background-color: #8372A9;
+  color: #E4E8ED;
+  padding: 20px;
+}
+
+.name {
+  text-anchor: end;
+  fill: #41355C;
+}
+
+.height-m {
+  fill: #E4E8ED;
+}
+
+.header {
+  fill: black;
+}
+
+.bar {
+  fill: #8372A9;
+}
+
+.bar:hover {
+  fill: #41355C;
+}
+
+img {
+  width: 250px;
+  height: 350px;
+}
+
+#chart {
+  min-width: 485px;
+}

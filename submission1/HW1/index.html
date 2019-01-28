@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <title>CS171 | Homework 1</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 id="assignment">CS171: Homework 1</h1>
+        </div>
+        <div class="col-md-6">
+          <h1 id="name">Justin F. Gonzalez</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><span class="header">Hunger Rates on the Decline</span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+          <table class="sortable">
+            <tr>
+              <th>Country</th>
+              <th>1990</th>
+              <th>2000</th>
+              <th>2014</th>
+            </tr>
+            <tr>
+              <td>Central African Republic</td>
+              <td>51.9</td>
+              <td>51.4</td>
+              <td>46.9</td>
+            </tr>
+            <tr>
+              <td>Chad</td>
+              <td>65</td>
+              <td>52</td>
+              <td>46.4</td>
+            </tr>
+            <tr>
+              <td>Haiti</td>
+              <td>52.1</td>
+              <td>42.8</td>
+              <td>37.3</td>
+            </tr>
+            <tr>
+              <td>Madagascar</td>
+              <td>44.8</td>
+              <td>44.1</td>
+              <td>36.3</td>
+            </tr>
+            <tr>
+              <td>Sierra Leone</td>
+              <td>58.8</td>
+              <td>53.5</td>
+              <td>38.9</td>
+            </tr>
+            <tr>
+              <td>East Timor</td>
+              <td>---</td>
+              <td>---</td>
+              <td>40.7</td>
+            </tr>
+            <tr>
+              <td>Zambia</td>
+              <td>47</td>
+              <td>50.9</td>
+              <td>41.1</td>
+            </tr>
+          </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="graph.png" id="graph" alt="World Hunger">
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><span class="header">Good and Bad Visualizations</span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 slider">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-75" src="https://untappedcities-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/manhattan_population.gif" alt="First slide">
+              <div class="carousel-caption">
+                <a href="https://manpopex.us/" target="_blank">
+                  <h3>Manhattan Population Explorer</h3>
+                </a>
+                <p>Good</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-75" src="https://i.redd.it/aiuv4unoedm01.jpg" alt="Second slide">
+              <div class="carousel-caption">
+                <a href="https://www.reddit.com/r/dataisbeautiful/comments/855y7m/11_different_brands_of_aa_batteries_tested_in/" target="_blank">
+                  <h3>Which Batteries Last Longest?</h3>
+                </a>
+                <p>Good</p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-75" src="https://www.designyourway.net/diverse/2/wronginfo/59427832631.jpg" alt="Third slide">
+              <div class="carousel-caption">
+                <a href="https://www.designyourway.net/blog/inspiration/when-infographics-go-bad-or-how-not-to-design-data-visualization/" target="_blank">
+                  <h3>Social Media Percentages</h3>
+                </a>
+                <p>Bad</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-75" src="https://www.designyourway.net/diverse/2/wronginfo/60857119575.jpg" alt="Fourth slide">
+              <div class="carousel-caption">
+                <a href="https://www.designyourway.net/blog/inspiration/when-infographics-go-bad-or-how-not-to-design-data-visualization/" target="_blank">
+                  <h3>Disproportionate Pie Chart</h3>
+                </a>
+                <p>Bad</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-5 reasons">
+        <ul class="reasons">
+          <li>
+            <a href="https://manpopex.us/" target="_blank">
+              <h3>Manhattan Population Explorer</h3>
+            </a>
+          </li>
+          <li><p>
+            What I love about this visual is how perfectly it mimics the beating of a human heart. Everything from the choice of a red gradient to the pulsing animation clearly show the author’s message about how dynamic and lively Manhattan’s population is. From this visual we can quickly and easily  see which parts of the city attract the most people on a typical day, which day of the week is busiest, which time of day is busiest, which areas are more residential, and so much more. Even though we typically make it a rule to stay away from 3D visuals, I felt as though should be an exception since the information is encoded in both height and color. (The full website also allows you to freely move around and get an aerial view of the data.) The only thing that I wish was also included in this visual is information for Central Park. It’s such a large and important part of the city, so it’s a shame that its data isn’t represented.
+          </p></li>
+          <br>
+          <li>
+            <a href="https://www.reddit.com/r/dataisbeautiful/comments/855y7m/11_different_brands_of_aa_batteries_tested_in/" target="_blank">
+              <h3>Which Batteries Last Longest?</h3>
+            </a>
+          </li>
+          <li><p>
+            What I love about this visual is how much it says with as few words as possible. Even if you took away the title and the line that follows, by just looking at the graph, you would immediately understand what the graph is about. This is due to the clever use of the image for each company’s battery instead of just a colored bar. This is probably the most efficient and generally useful bar graph I’ve ever come across. The only thing I would want to change about this graph is to add small y-axis tick marks to the right side in addition to the left because its a little bit challenging to make out how many hours some of the last batteries last.
+          </p></li>
+          <br>
+          <br>
+          <li>
+            <a href="https://www.designyourway.net/blog/inspiration/when-infographics-go-bad-or-how-not-to-design-data-visualization/" target="_blank">
+              <h3>Social Media Percentages</h3>
+            </a>
+          </li>
+          <li><p>
+            This visual is a good example of how over-simplification can go wrong. If I had to guess, I believe that this visual was attempting to describe the proportions of social media users in two distinct demographics. Which demographics these colors are meant to represent are a mystery. Another glaring flaw this visual has is that the percentages do not have any clear correlation with the number of figures portrayed to their left. With just a little bit more information such as a descriptive title and a key, this graphic has the potential to be a decent visualization.
+          </p></li>
+          <br>
+          <li>
+            <a href="https://www.designyourway.net/blog/inspiration/when-infographics-go-bad-or-how-not-to-design-data-visualization/" target="_blank">
+              <h3>Disproportionate Pie Chart</h3>
+            </a>
+          </li>
+          <li><p>
+            This is a very poor visual primarily due to the author’s lack of care to detail. First and foremost, this pie chart is divided in what appears to be thirds (the size of each slice is a bit distorted due to the chart being in 3D) and each slice has a completely different value. Second, the use of a pie chart is just not necessary in this situation. From my understanding, the author wanted to inform his/her viewer of their goals for a specific product, however, the three categories each slice represents is not really a breakdown of a greater whole. The sum of the three slices do not add up to anything of significance. Since these three items are so distinct, comparing them to each other in an image doesn’t really add any significance. This is an example where just stating the facts by themselves in text is sufficient.
+          </p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="footer">
+    <p>Justin F. Gonzalez | 2018</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/sorttable.js"></script>
+</body>
+</html>

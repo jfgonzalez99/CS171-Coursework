@@ -1,0 +1,10 @@
+/* custom css rules */
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.city-label {
+  font-size: 11px;
+  text-anchor: middle;
+}

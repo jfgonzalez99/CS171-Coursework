@@ -1,0 +1,124 @@
+body {
+  background: #F5EBDF;
+  color: #B64236;
+  font-family: 'Oswald', sans-serif;
+}
+
+div {
+  padding: 5px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+}
+
+#headline {
+  padding: 20px;
+}
+
+/* Banner and footer */
+div.banner, div.footer {
+  background: #336F46;
+  color: white;
+  margin-left: -5%;
+  margin-right: -5%;
+  padding: 10px;
+  height: 100px;
+}
+
+div.footer {
+  padding: 15px;
+  height: 55px;
+  color: white;
+  text-align: center;
+}
+
+/* Table */
+table {
+  height: 300px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #F2F2F0;
+}
+
+tr:nth-child(even) {
+  background-color: #D9D9D9;
+}
+
+tr:hover {
+  background-color: #336F46;
+  color: white;
+}
+
+
+/****************/
+/*   BAR-CHART  */
+/****************/
+
+.bar {
+  fill: #336F46;
+}
+
+.bar:hover {
+  fill: #B64236;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x-axis path {
+  display: none;
+}
+
+.axis-title {
+	fill: #888;
+	font-size: 11px;
+}
+
+
+/****************/
+/*   TOOLTIPS   */
+/****************/
+
+.d3-tip {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -3px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}

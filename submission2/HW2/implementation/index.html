@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CS171 | HW2</title>
+
+		<!-- Load CSS libraries -->
+    <link rel="icon"
+      type="image/jpg"
+      href="https://avatars3.githubusercontent.com/u/31599084?s=460&v=4">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	</head>
+	<body>
+  <div class="banner title">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>CS171 - HW2</h1>
+        </div>
+        <div class="col-md-6">
+          <h1>Justin Gonzalez</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="headline">
+    <div class="row title">
+      <h1>PizzaWorld Insights</h1>
+    </div>
+  </div>
+  <div class="container user-control">
+    <div class="row">
+      <div class="col-md-6">
+        <select class="form-control" id="area" onchange="dataManipulation()">
+          <option value="all">All Locations</option>
+          <option value="Boston">Boston</option>
+          <option value="Cambridge">Cambridge</option>
+          <option value="Somerville">Somerville</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="form-control" id="order-type" onchange="dataManipulation()">
+          <option value="all">All Ordering Methods</option>
+          <option value="web">Web</option>
+          <option value="phone">Phone</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row title">
+      <h2>Data Summary</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <table>
+          <tr>
+            <th>Number of Deliveries</th>
+            <td id="deliveries"></td>
+          </tr>
+          <tr>
+            <th>Number of Pizzas Delivered</th>
+            <td id="pizzas"></td>
+          </tr>
+          <tr>
+            <th>Average Delivery Time (minutes)</th>
+            <td id="average-time"></td>
+          </tr>
+          <tr>
+            <th>Total Sales (USD)</th>
+            <td id="sales"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table>
+          <tr>
+            <th>Total Feedback Responses</th>
+            <td id="feedback"></td>
+          </tr>
+          <tr>
+            <th>High Quality</th>
+            <td id="high-quality"></td>
+          </tr>
+          <tr>
+            <th>Medium Quality</th>
+            <td id="mid-quality"></td>
+          </tr>
+          <tr>
+            <th>Low Quality</th>
+            <td id="low-quality"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <br>
+
+	<!-- Make sure to include a div-container with the id: 'chart-area' -->
+  <div class="container title" id="chart-area">
+
+  </div>
+  <div class="footer">
+    <p>Justin Gonzalez 2018</p>
+  </div>
+
+	<!-- Load JS libraries: jQuery, bootstrap, D3, D3 Tooltips -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/d3.min.js"></script>
+
+	<!-- Completed: Data loading, bar chart rendering -->
+	<script src="js/delivery-data.js"></script>
+	<script src="js/feedback-data.js"></script>
+	<script src="js/barchart.js"></script>
+
+	<!-- ****** TODO: FILTER DATA, DISPLAY BAR CHART & KEY FIGURES ****** -->
+	<script src="js/main.js"></script>
+	</body>
+</html>

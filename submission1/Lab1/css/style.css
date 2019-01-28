@@ -1,0 +1,55 @@
+body {
+  font-family: 'Noto Serif JP', sans-serif;
+  color: #34393B;
+  margin: 25px;
+}
+
+h1 {
+  /* margin-left: 11%; */
+  text-align: center;
+}
+
+#content {
+  background: #D25D55;
+  padding: 3px;
+  border-radius: 8px;
+  /* margin: 3px; */
+}
+
+#content p{
+  margin: 10px;
+  color: white;
+}
+
+.btn {
+  border: none;
+  background-color: #64A7FF;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-left: -1px;
+}
+
+#cs171-basics:hover {
+  background-color: #D25D55;
+}
+
+a {
+  font-size: 20px;
+  color: #34393B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D25D55;
+}
+
+.attribute {
+  font-style: italic;
+  font-size: 10px;
+}
+
+img {
+  width: 400px;
+}

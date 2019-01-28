@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-color: #F1F1F1;
+  font-family: 'Poppins', sans-serif;
+  color: #EA7280;
+}
+
+.map-path {
+  fill: #355C7D;
+  stroke-width: 0.1px;
+  stroke: lightgrey;
+}
+
+.airports {
+  fill: #EA7280;
+}

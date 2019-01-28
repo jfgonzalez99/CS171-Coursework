@@ -1,0 +1,13 @@
+body {
+  font-family: 'Bree Serif', serif;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+#coffee {
+  color: #384A59;
+}
+
+#tea {
+  color: #F25764;
+}

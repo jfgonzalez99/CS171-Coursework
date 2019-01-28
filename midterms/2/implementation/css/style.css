@@ -1,0 +1,109 @@
+
+/* YOUR CSS STYLES */
+body {
+  text-align: center;
+  background-color: #EEF4F2;
+  color: #627C85;
+  padding: 40px;
+}
+
+select {
+  background-color: #7B9BA6;
+  border: 0px;
+  outline: 0px;
+  color: white;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  max-width: 220px;
+}
+
+div {
+  padding: 10px;
+}
+
+h1 {
+  max-width: 660px;
+}
+
+h5 {
+  text-align: justify;
+  max-width: 660px;
+}
+
+.text-block {
+  display: inline-block;
+  text-align: center;
+}
+
+#left-column {
+  display: block;
+  text-align: right;
+  margin-right: 40px;
+}
+
+#right-column {
+  display: block;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.map-path {
+  stroke-width: 0.3;
+  stroke: #CDD6D5;
+}
+
+#water {
+  color: #4392C5;
+}
+
+#sanitation {
+  color: #CB181D;
+}
+
+.legend-label {
+  fill: #7B9BA6;
+  font-size: 18px;
+}
+
+.legend-scale {
+  stroke: #7B9BA6;
+  stroke-width: 0.1;
+}
+
+.dynamic-label {
+  font-size: 12px;
+}
+
+/*
+Tooltip stylings below are from
+https://bl.ocks.org/sarubenfeld/56dc691df199b4055d90e66b9d5fc0d2
+*/
+
+#tooltip {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: Futura;
+  font-size: 16px;
+  line-height: 20px;
+}
